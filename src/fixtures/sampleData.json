@@ -1,0 +1,344 @@
+[
+    {
+        "customerName": "John Doe",
+        "transactionId": "ABCD1234",
+        "amount": 120,
+        "date": "2022-01-15"
+    },
+    {
+        "customerName": "John Doe",
+        "transactionId": "EFGH5678",
+        "amount": 75,
+        "date": "2022-01-20"
+    },
+    {
+        "customerName": "John Doe",
+        "transactionId": "IJKL9101",
+        "amount": 200,
+        "date": "2022-02-10"
+    },
+    {
+        "customerName": "Jane Smith",
+        "transactionId": "MNOP2345",
+        "amount": 150,
+        "date": "2022-01-25"
+    },
+    {
+        "customerName": "Jane Smith",
+        "transactionId": "QRST6789",
+        "amount": 50,
+        "date": "2022-02-15"
+    },
+    {
+        "customerName": "Jane Smith",
+        "transactionId": "UVWX0123",
+        "amount": 110,
+        "date": "2022-03-05"
+    },
+    {
+        "customerName": "Bob Johnson",
+        "transactionId": "YZAB4567",
+        "amount": 90,
+        "date": "2022-01-30"
+    },
+    {
+        "customerName": "Bob Johnson",
+        "transactionId": "CDEF8910",
+        "amount": 130,
+        "date": "2022-02-20"
+    },
+    {
+        "customerName": "Bob Johnson",
+        "transactionId": "GHIJ2345",
+        "amount": 80,
+        "date": "2022-03-10"
+    },
+    {
+        "customerName": "Alice Williams",
+        "transactionId": "KLMN7890",
+        "amount": 95,
+        "date": "2022-01-18"
+    },
+    {
+        "customerName": "Alice Williams",
+        "transactionId": "OPQR1234",
+        "amount": 105,
+        "date": "2022-02-12"
+    },
+    {
+        "customerName": "Alice Williams",
+        "transactionId": "STUV5678",
+        "amount": 150,
+        "date": "2022-03-07"
+    },
+    {
+        "customerName": "Charlie Brown",
+        "transactionId": "WXYZ9101",
+        "amount": 120,
+        "date": "2022-01-22"
+    },
+    {
+        "customerName": "Charlie Brown",
+        "transactionId": "ABCD2345",
+        "amount": 80,
+        "date": "2022-02-18"
+    },
+    {
+        "customerName": "Charlie Brown",
+        "transactionId": "EFGH6789",
+        "amount": 200,
+        "date": "2022-03-15"
+    },
+    {
+        "customerName": "Emma Davis",
+        "transactionId": "IJKL0123",
+        "amount": 110,
+        "date": "2022-01-24"
+    },
+    {
+        "customerName": "Emma Davis",
+        "transactionId": "MNOP4567",
+        "amount": 90,
+        "date": "2022-02-22"
+    },
+    {
+        "customerName": "Emma Davis",
+        "transactionId": "QRST8910",
+        "amount": 130,
+        "date": "2022-03-12"
+    },
+    {
+        "customerName": "Oliver Taylor",
+        "transactionId": "UVWX2345",
+        "amount": 75,
+        "date": "2022-01-28"
+    },
+    {
+        "customerName": "Oliver Taylor",
+        "transactionId": "YZAB6789",
+        "amount": 200,
+        "date": "2022-02-26"
+    },
+    {
+        "customerName": "Oliver Taylor",
+        "transactionId": "CDEF0123",
+        "amount": 120,
+        "date": "2022-03-18"
+    },
+    {
+        "customerName": "Sophia Johnson",
+        "transactionId": "GHIJ3456",
+        "amount": 85,
+        "date": "2022-01-30"
+    },
+    {
+        "customerName": "Sophia Johnson",
+        "transactionId": "KLMN7890",
+        "amount": 105,
+        "date": "2022-02-28"
+    },
+    {
+        "customerName": "Sophia Johnson",
+        "transactionId": "OPQR1234",
+        "amount": 150,
+        "date": "2022-03-20"
+    },
+    {
+        "customerName": "Liam Williams",
+        "transactionId": "STUV5678",
+        "amount": 120,
+        "date": "2022-01-31"
+    },
+    {
+        "customerName": "Liam Williams",
+        "transactionId": "WXYZ9101",
+        "amount": 80,
+        "date": "2022-02-29"
+    },
+    {
+        "customerName": "Liam Williams",
+        "transactionId": "ABCD2345",
+        "amount": 200,
+        "date": "2022-03-22"
+    },
+    {
+        "customerName": "Noah Davis",
+        "transactionId": "EFGH6789",
+        "amount": 95,
+        "date": "2022-01-15"
+    },
+    {
+        "customerName": "Noah Davis",
+        "transactionId": "IJKL0123",
+        "amount": 105,
+        "date": "2022-02-10"
+    },
+    {
+        "customerName": "Noah Davis",
+        "transactionId": "MNOP4567",
+        "amount": 150,
+        "date": "2022-03-05"
+    },
+    {
+        "customerName": "Ava Taylor",
+        "transactionId": "QRST8910",
+        "amount": 120,
+        "date": "2022-01-20"
+    },
+    {
+        "customerName": "Ava Taylor",
+        "transactionId": "UVWX2345",
+        "amount": 80,
+        "date": "2022-02-15"
+    },
+    {
+        "customerName": "Ava Taylor",
+        "transactionId": "YZAB6789",
+        "amount": 200,
+        "date": "2022-03-10"
+    },
+    {
+        "customerName": "Mia Johnson",
+        "transactionId": "CDEF0123",
+        "amount": 110,
+        "date": "2022-01-25"
+    },
+    {
+        "customerName": "Mia Johnson",
+        "transactionId": "GHIJ3456",
+        "amount": 90,
+        "date": "2022-02-20"
+    },
+    {
+        "customerName": "Mia Johnson",
+        "transactionId": "KLMN7890",
+        "amount": 130,
+        "date": "2022-03-15"
+    },
+    {
+        "customerName": "Isabella Brown",
+        "transactionId": "OPQR1234",
+        "amount": 75,
+        "date": "2022-01-30"
+    },
+    {
+        "customerName": "Isabella Brown",
+        "transactionId": "STUV5678",
+        "amount": 200,
+        "date": "2022-02-26"
+    },
+    {
+        "customerName": "Isabella Brown",
+        "transactionId": "WXYZ9101",
+        "amount": 120,
+        "date": "2022-03-18"
+    },
+    {
+        "customerName": "James Wilson",
+        "transactionId": "ABCD2345",
+        "amount": 85,
+        "date": "2022-01-31"
+    },
+    {
+        "customerName": "James Wilson",
+        "transactionId": "EFGH6789",
+        "amount": 105,
+        "date": "2022-02-28"
+    },
+    {
+        "customerName": "James Wilson",
+        "transactionId": "IJKL0123",
+        "amount": 150,
+        "date": "2022-03-20"
+    },
+    {
+        "customerName": "Benjamin Miller",
+        "transactionId": "MNOP4567",
+        "amount": 120,
+        "date": "2022-01-31"
+    },
+    {
+        "customerName": "Benjamin Miller",
+        "transactionId": "QRST8910",
+        "amount": 80,
+        "date": "2022-02-28"
+    },
+    {
+        "customerName": "Benjamin Miller",
+        "transactionId": "UVWX2345",
+        "amount": 200,
+        "date": "2022-03-22"
+    },
+    {
+        "customerName": "Elijah Davis",
+        "transactionId": "YZAB6789",
+        "amount": 95,
+        "date": "2022-01-15"
+    },
+    {
+        "customerName": "Elijah Davis",
+        "transactionId": "CDEF0123",
+        "amount": 105,
+        "date": "2022-02-10"
+    },
+    {
+        "customerName": "Elijah Davis",
+        "transactionId": "GHIJ3456",
+        "amount": 150,
+        "date": "2022-03-05"
+    },
+    {
+        "customerName": "Lucas Wilson",
+        "transactionId": "KLMN7890",
+        "amount": 120,
+        "date": "2022-01-20"
+    },
+    {
+        "customerName": "Lucas Wilson",
+        "transactionId": "OPQR1234",
+        "amount": 80,
+        "date": "2022-02-15"
+    },
+    {
+        "customerName": "Lucas Wilson",
+        "transactionId": "STUV5678",
+        "amount": 200,
+        "date": "2022-03-10"
+    },
+    {
+        "customerName": "Mason Taylor",
+        "transactionId": "WXYZ9101",
+        "amount": 110,
+        "date": "2022-01-25"
+    },
+    {
+        "customerName": "Mason Taylor",
+        "transactionId": "ABCD2345",
+        "amount": 90,
+        "date": "2022-02-20"
+    },
+    {
+        "customerName": "Mason Taylor",
+        "transactionId": "EFGH6789",
+        "amount": 130,
+        "date": "2022-03-15"
+    },
+    {
+        "customerName": "Ethan Brown",
+        "transactionId": "IJKL0123",
+        "amount": 75,
+        "date": "2022-01-30"
+    },
+    {
+        "customerName": "Ethan Brown",
+        "transactionId": "MNOP4567",
+        "amount": 200,
+        "date": "2022-02-26"
+    },
+    {
+        "customerName": "Ethan Brown",
+        "transactionId": "QRST8910",
+        "amount": 120,
+        "date": "2022-03-18"
+    }
+]
