@@ -2,13 +2,13 @@
     return Math.random() < probability;
 }
 
-export const mockApiCall = (data, probability) => {
+export const mockApiCall = (data, probability, timeout) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       shouldFailWithProbability(probability)
         ? reject(new Error("Something went wrong"))
         : resolve(data)
-    }, 1000);
+    }, timeout);
   });
 }
 
