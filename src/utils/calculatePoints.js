@@ -13,24 +13,41 @@ const calculatePointsForTransaction = (amount, points = 0, index = 0) => {
     return calculatePointsForTransaction(thresholds[index], points, index + 1);
   }
   return calculatePointsForTransaction(amount, points, index + 1);
-}
+};
 
-const updatePoints = (currentPoints, newPoints) => currentPoints ? currentPoints + newPoints : newPoints;
+const updatePoints = (currentPoints, newPoints) =>
+  currentPoints ? currentPoints + newPoints : newPoints;
 
- const calculatePoints = (transactions) => {
+const calculatePoints = (transactions) => {
   return transactions.reduce((acc, transaction) => {
-    const customerName = transaction.customerName.split(" ").join("_");
+    const customerName = transaction.customerName;
     const month = transaction.date.split("-")[1];
     const points = calculatePointsForTransaction(transaction.amount);
 
-    const customerData = acc[customerName] || {};
-    customerData[month] = updatePoints(customerData[month], points);
-    customerData.total = updatePoints(customerData.total, points);
-
-    acc[customerName] = customerData;
-
+    const customerData = acc.find(
+      (element) => element.customerName === customerName
+    );
+    if (customerData) {
+      const monthlyPoints = customerData.monthlyPoints;
+      const monthlyData = monthlyPoints.find(
+        (element) => element.month === month
+      );
+      if (monthlyData) {
+        monthlyData.points = updatePoints(monthlyData.points, points);
+        customerData.total = updatePoints(customerData.total, points);
+        return acc;
+      }
+      monthlyPoints.push({ month, points });
+      customerData.total = updatePoints(customerData.total, points);
+      return acc;
+    }
+    acc.push({
+      customerName,
+      total: points,
+      monthlyPoints: [{ month, points }],
+    });
     return acc;
-  }, {});
+  }, []);
 };
 
 export default calculatePoints;
