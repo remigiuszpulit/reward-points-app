@@ -1,10 +1,12 @@
-import './App.css';
+import "./App.css";
+
+import CustomersPointsSummary from "./components/CustomersPointsSummary";
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <CustomersPointsSummary />
+    </>
   );
 }
 
